@@ -1,1 +1,1 @@
-"""Решения и тесты задач LeetCode уровня Easy."""
+"""Solutions and tests for Easy LeetCode problems."""

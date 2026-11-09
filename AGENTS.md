@@ -1,10 +1,14 @@
-# Правила проекта
+# Project conventions
 
-- Решения задач LeetCode пишем на Python.
-- Распределяем задачи по папкам `easy`, `medium`, `hard`.
-- Начинаем с Easy; задачи выбираем по популярности на LeetCode, ориентируясь на число отметок «нравится».
-- В начале каждого файла решения и тестов размещаем docstring с описанием задачи и ссылкой на LeetCode. В решении также приводим примеры и ограничения.
-- Для каждого решения добавляем тесты на примеры из условия и граничные случаи. Используем стандартный `unittest`.
-- Решения оформляем для публикации на GitHub: понятные имена файлов, краткое объяснение алгоритма и оценки времени и памяти.
-- Формат класса и метода решения должен подходить для отправки на LeetCode.
-- После изменений запускаем соответствующие тесты.
+- Write all repository content in English, including documentation, comments, docstrings, error messages, and commit messages.
+- Write LeetCode solutions in Python.
+- Organize problems into `easy`, `medium`, and `hard` directories.
+- Start with Easy problems and choose problems by popularity on LeetCode, using the number of likes as a guide.
+- Begin each solution and test file with a docstring describing the problem and linking to LeetCode. Include examples and constraints in solution files.
+- Test every solution with examples from the problem statement and edge cases. Use the standard library's `unittest` module.
+- Prepare solutions for publication on GitHub: use clear filenames, explain the algorithm briefly, and state time and space complexity.
+- Keep solution classes and method signatures compatible with LeetCode submissions.
+- Run the relevant tests after changes.
+- Commit directly to `main`. Keep any pull request descriptions short.
+- Use the repository-local identity `Yuliya Svirska <yuliya.svirska@gmail.com>` for authors and committers.
+- Do not add code-generation tool attribution to code, comments, commit messages, or pull request descriptions.

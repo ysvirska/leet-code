@@ -1,25 +1,25 @@
 """1. Two Sum — Easy.
 https://leetcode.com/problems/two-sum/
 
-Даны список целых чисел nums и целое число target. Вернуть индексы двух
-разных элементов, сумма которых равна target. Гарантируется ровно одна
-подходящая пара. Порядок индексов в ответе не важен.
+Given a list of integers nums and an integer target, return the indices
+of two distinct elements whose sum is target. Exactly one valid pair
+exists. The indices may be returned in either order.
 
-Примеры:
+Examples:
     nums = [2, 7, 11, 15], target = 9 -> [0, 1]
     nums = [3, 2, 4], target = 6 -> [1, 2]
     nums = [3, 3], target = 6 -> [0, 1]
 
-Ограничения:
+Constraints:
     2 <= len(nums) <= 10**4
     -10**9 <= nums[i], target <= 10**9
-    Существует ровно одно решение.
+    Exactly one solution exists.
 
-Алгоритм: храним в словаре индексы уже просмотренных чисел. Для каждого
-числа ищем дополнение target - число. Проверяем словарь до добавления
-текущего числа, чтобы не использовать один элемент дважды.
+Algorithm: store previously visited numbers and their indices in a
+dictionary. For each number, look up target - number before inserting
+the current number, so the same element cannot be used twice.
 
-Сложность: O(n) времени в среднем, O(n) дополнительной памяти.
+Complexity: O(n) average time and O(n) extra space.
 """
 
 
@@ -32,4 +32,4 @@ class Solution:
                 return [seen[complement], index]
             seen[number] = index
 
-        raise ValueError("Входные данные должны содержать подходящую пару")
+        raise ValueError("Input must contain a valid pair")

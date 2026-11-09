@@ -1,8 +1,8 @@
-"""Тесты задачи 1. Two Sum.
+"""Tests for problem 1. Two Sum.
 https://leetcode.com/problems/two-sum/
 
-Нужно найти индексы двух разных элементов, сумма которых равна target.
-Проверяем примеры, повторы, нули, отрицательные числа и границы условия.
+Find the indices of two distinct elements whose sum is target.
+Cover examples, duplicates, zeros, negative numbers, and constraint limits.
 """
 
 import unittest

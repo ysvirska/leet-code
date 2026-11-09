@@ -1,27 +1,27 @@
-# LeetCode на Python
+# LeetCode in Python
 
-Решения с описаниями задач и тестами на `unittest`.
+Solutions with problem descriptions and `unittest` tests.
 
-- `easy/` — простые задачи; начинаем с этого уровня.
-- `medium/` — задачи средней сложности.
-- `hard/` — сложные задачи.
+- `easy/` — Easy problems; start here.
+- `medium/` — Medium problems.
+- `hard/` — Hard problems.
 
-Внутри уровня выбираем задачи по популярности на LeetCode, ориентируясь на число отметок «нравится». Номера задач — идентификаторы LeetCode, а не порядок решения.
+Within each difficulty level, choose problems by popularity on LeetCode, using the number of likes as a guide. Problem numbers are LeetCode IDs, not the solving order.
 
-| № | Задача | Уровень | Решение | Тесты |
+| # | Problem | Difficulty | Solution | Tests |
 | --- | --- | --- | --- | --- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Код](easy/two_sum.py) | [Тесты](easy/test_two_sum.py) |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Code](easy/two_sum.py) | [Tests](easy/test_two_sum.py) |
 
-Запуск всех тестов из корня репозитория:
+Run all tests from the repository root:
 
 ```bash
 python3 -m unittest discover -v
 ```
 
-Запуск тестов отдельной задачи:
+Run tests for a single problem:
 
 ```bash
 python3 -m unittest easy.test_two_sum -v
 ```
 
-Дополнительные зависимости не нужны.
+No additional dependencies are required.
