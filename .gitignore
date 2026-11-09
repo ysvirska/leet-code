@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .venv/
 .pytest_cache/
+.idea/*
+!.idea/modules.xml
+!.idea/leet-code.iml

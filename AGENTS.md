@@ -9,6 +9,7 @@
 - Prepare solutions for publication on GitHub: use clear filenames, explain the algorithm briefly, and state time and space complexity.
 - Keep solution classes and method signatures compatible with LeetCode submissions.
 - Run the relevant tests after changes.
+- Keep the README brief and general; do not list solved problems or track progress there.
 - Commit directly to `main`. Keep any pull request descriptions short.
 - Use the repository-local identity `Yuliya Svirska <yuliya.svirska@gmail.com>` for authors and committers.
 - Do not add code-generation tool attribution to code, comments, commit messages, or pull request descriptions.
