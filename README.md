@@ -6,10 +6,11 @@ Python 3.9+ solutions to LeetCode problems, with problem descriptions and standa
 - `medium/` — Medium problems.
 - `hard/` — Hard problems.
 
-Run all tests from the repository root:
+Create a local virtual environment and run all tests from the repository root:
 
 ```bash
-python3 -m unittest discover -v
+python3 -m venv .venv
+.venv/bin/python -m unittest discover -v
 ```
 
-In PyCharm, open the repository, select a Python interpreter, and run the shared **All Tests** configuration. No additional dependencies are required.
+In PyCharm, open the repository and select `.venv` as the project interpreter. The shared **All Tests** configuration uses `.venv/bin/python`. No additional dependencies are required.

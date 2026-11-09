@@ -1,0 +1,6 @@
+[project]
+name = "leetcode-solutions"
+version = "0.1.0"
+description = "Python solutions to LeetCode problems with unittest tests"
+requires-python = ">=3.9"
+dependencies = []
